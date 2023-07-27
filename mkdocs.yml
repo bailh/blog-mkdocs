@@ -2,6 +2,36 @@ site_name: lisihan's self-website
 site_author: lisihan
 site_description: lisihan's self-website
 
+nav:
+  - Home:
+      - index.md
+      - home:
+          - Home/home.md
+  - Blog:
+      - Blog/page5.md
+      - test:
+          - Blog/test.md
+      - C++:
+          - Blog/page6.md
+          - 算法与数据结构:
+              - Blog/first.md
+          - C++ important:
+              - Blog/C++ important.md
+      - java:
+          - Blog/page7.md
+      - python:
+          - Blog/page8.md
+          - ML:
+              - Blog/page2.md
+          - CV:
+              - Blog/page3.md
+          - NLP:
+              - Blog/page4.md
+          - jupyter:
+              - jupyter-fast.md
+  - Website:
+      - Website/build.md
+
 theme:
   name: material
   palette:
@@ -37,11 +67,11 @@ theme:
     - content.action.edit
     - content.action.view
   icon:
-  repo: fontawesome/brands/github #右上角图标
-  edit_uri: edit/main/docs # 编辑按钮跳转的链接
-  repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
-  repo_name: bailh.github.io # 右上角的名字
-  copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
+    repo: fontawesome/brands/github #右上角图标
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
+repo_name: bailh.github.io # 右上角的名字
+copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
 
 extra:
   generator: false #删除页脚显示“使用 MkDocs 材料制造”
@@ -62,7 +92,7 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-  - ckplayer/js/ckplayer.js
+  #- ckplayer/js/ckplayer.js
   # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
   # - javascripts/backgroud.js
   # - javascripts/rellax.min.js
