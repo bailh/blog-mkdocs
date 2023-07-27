@@ -28,7 +28,7 @@ nav:
           - NLP:
               - Blog/page4.md
           - jupyter:
-              - jupyter-fast.md
+              - Blog/jupyter-fast.md
   - Website:
       - Website/build.md
 
@@ -64,6 +64,8 @@ theme:
     - content.tabs.link
     - content.tooltips
     - content.code.copy
+    - content.code.select
+    - content.code.select
     - content.action.edit
     - content.action.view
   icon:
@@ -72,6 +74,15 @@ edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
 repo_name: bailh.github.io # 右上角的名字
 copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 extra:
   generator: false #删除页脚显示“使用 MkDocs 材料制造”
