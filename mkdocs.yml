@@ -83,6 +83,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - attr_list
 
 extra:
   generator: false #删除页脚显示“使用 MkDocs 材料制造”
