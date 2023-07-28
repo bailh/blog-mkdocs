@@ -13,14 +13,19 @@ nav:
           - Blog/test.md
       - C++:
           - Blog/page6.md
+          - STL:
+              - Blog/STL.md
           - 算法与数据结构:
               - Blog/first.md
+              - ACWING:
+                  - Blog/AcWing 3446.md
+                  - Blog/AcWing 3431. skew数.md
           - C++ important:
               - Blog/C++ important.md
       - java:
           - Blog/page7.md
       - python:
-          - Blog/page8.md
+          - Blog/Python base.md
           - ML:
               - Blog/page2.md
           - CV:
