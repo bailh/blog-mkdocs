@@ -29,7 +29,8 @@ nav:
               - Blog/page4.md
           - jupyter:
               - Blog/jupyter-fast.md
-      - MATLAB: -Blog/MATLAB entry.md
+      - MATLAB:
+          - Blog/MATLAB entry.md
 
   - Website:
       - Website/build.md

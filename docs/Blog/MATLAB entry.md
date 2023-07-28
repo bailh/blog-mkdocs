@@ -6,7 +6,9 @@
 
 ## 结果
 
-`ans =`
+```matlab
+ans =
+```
 
 画图
 
@@ -14,24 +16,40 @@
 
 plot(步长t,函数y,颜色（’-r、g、b、‘）)
 
-![QQ截图20230728090917](![1690507744638](image/MATLABentry/1690507744638.png))
+![QQ截图20230728090917](image/1690507744638.png)
 
 ## 矩阵
 
 ### 定义
 
-`A=[1,2,3;4,5,6;7,8,9]`
+```matlab
+A=[1,2,3;4,5,6;7,8,9]
+```
 
 ## 定义之前先规定数据格式（format）
 
 ### 使用十进制表示法
 
-`format short e`
+```matlab
+format short e
 
-`format short`
+format short
 
-`format short g`(默认)
+format short g(默认)
+```
 
 ## 清除变量
 
-`clc`
+```matlab
+clc
+```
+
+## 快捷键
+
+上标：Ctrl+H
+下标：Ctrl+L
+上下标：Ctrl+J
+
+小括号：Ctrl+9
+中括号：Ctrl+[
+大括号：Ctrl+Shift+[
