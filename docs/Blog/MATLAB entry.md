@@ -1,12 +1,12 @@
+# MATLAB entry
+
 ## 符号与函数
 
 **π**：pi
 
-
-
 ## 结果
 
-`ans =` 
+`ans =`
 
 画图
 
@@ -14,11 +14,7 @@
 
 plot(步长t,函数y,颜色（’-r、g、b、‘）)
 
-![QQ截图20230728090917](C:\Users\探索者\Documents\GitHub\blog-mkdocs\docs\Blog\MATLAB entry.assets\QQ截图20230728090917.png)
-
-
-
-
+![QQ截图20230728090917](![1690507744638](image/MATLABentry/1690507744638.png))
 
 ## 矩阵
 
@@ -39,6 +35,3 @@ plot(步长t,函数y,颜色（’-r、g、b、‘）)
 ## 清除变量
 
 `clc`
-
-
-
