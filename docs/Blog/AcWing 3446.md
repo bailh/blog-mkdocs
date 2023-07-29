@@ -1,12 +1,6 @@
----
-title: AcWing 3446. 整数奇偶排序
-top: 15
-description: AcWing 3446. 整数奇偶排序
-tag: memset
-categories: AcWing 春季每日一题
----
+# AcWing 3446. 整数奇偶排序
 
-## AcWing 3446. 整数奇偶排序
+## AcWing 3446.整数奇偶排序
 
 ### 题目
 
@@ -40,8 +34,6 @@ while(cin>>a)输入用数组存起来；
 sort（）排序
 
 sort(  greater<int>()) 从大到小
-
-
 
 ### 题解
 
