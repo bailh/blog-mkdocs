@@ -8,6 +8,7 @@
 
 ### 命令模式 (按键 Esc 开启)
 
+```python
 Enter : 转入编辑模式
 Shift-Enter : 运行本单元，选中下个单元
 Ctrl-Enter : 运行本单元
@@ -49,9 +50,11 @@ I,I : 中断Notebook内核
 Shift : 忽略
 Shift-Space : 向上滚动
 Space : 向下滚动
+、、、
 
 ### 编辑模式 ( Enter 键启动)
 
+```python
 Tab : 代码补全或缩进
 Shift-Tab : 提示
 Ctrl-] : 缩进
@@ -79,3 +82,5 @@ Ctrl-S : 文件存盘
 Shift : 忽略
 Up : 光标上移或转入上一单元
 Down :光标下移或转入下一单元
+
+```
