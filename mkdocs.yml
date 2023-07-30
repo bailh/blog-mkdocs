@@ -34,6 +34,7 @@ nav:
               - Blog/page4.md
           - jupyter:
               - Blog/jupyter-fast.md
+              - Blog/Jupyter book快捷键.md
       - MATLAB:
           - Blog/MATLAB entry.md
 
