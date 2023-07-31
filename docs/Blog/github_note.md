@@ -13,8 +13,7 @@ github高级搜索功能
 直接打开这里[GitHub · Where software is built](https://github.com/search/advanced)
 
 或搜索后在搜索页面 language 下方打开（没找到更好的方法）
-
-<img src="image/20220504225139153.png" alt="image-20220504225139153" style="zoom: 25%;" />
+![image-20220504225139153](image/20220504225139153.png)
 
 更多技巧可查看官方文档：
 
@@ -25,23 +24,19 @@ github高级搜索功能
 ## 2.查找文件
 
 在主页按“t”：查找文件
-
-<img src="image/20220504225403858.png" alt="image-20220504225403858" style="zoom:50%;" />
+![image-20220504230504057](image/20220504230504057.png)
 
 点进源代码后，按“l”：跳转到某一行
-
-<img src="image/20220504225816271.png" alt="image-20220504225816271" style="zoom:50%;" />
+![image-20220504225816271](image/20220504225816271.png)
 
 点击行号：
 
 1. 复制这行代码
 2. 生成永久链接
-
-<img src="image/20220504225652318.png" alt="image-20220504225652318" style="zoom:50%;" />
+![image-20220504225652318](image/20220504225652318.png)
 
 源代码中按“b”：查看文件的改动记录
-
-<img src="image/20220504225932440.png" alt="image-20220504225932440" style="zoom:50%;" />
+![image-20220504225932440](image/20220504225932440.png)
 
 键盘快捷键：
 
@@ -59,24 +54,20 @@ github高级搜索功能
 
 1. 下载到本地
 2. 在线vscode：仓库详情界面按下“。”键，
+![image-20220504230504057](image/20220504230504057.png)
 
-<img src="image/20220504230504057.png" alt="image-20220504230504057" style="zoom:50%;" />
-
-<img src="image/20220504230630070.png" alt="image-20220504230630070" style="zoom:50%;" />
+![image-20220504230630070](image/20220504230630070.png)
 
 ## 4.在线运行项目
 
 在项目地址前加上`gitpod.io/#/`前缀
 
-https://github.com/nginx/nginx  => https://gitpod.io/#/github.com/nginx/nginx
+<https://github.com/nginx/nginx>  => <https://gitpod.io/#/github.com/nginx/nginx>
 
 登陆：
-
-<img src="image/20220504230740420.png" alt="image-20220504230740420" style="zoom:50%;" />
-
+![image-20220504230740420](image/20220504230740420.png)
 加载：
-
-<img src="image/20220504230844063.png" alt="image-20220504230844063" style="zoom:50%;" />
+![image-20220504230844063](image/20220504230844063.png)
 
 运行：
 
@@ -85,8 +76,7 @@ https://github.com/nginx/nginx  => https://gitpod.io/#/github.com/nginx/nginx
 ## 5.项目推送
 
 根据自己的喜好让github推送自己感兴趣的优质项目
-
-<img src="image/20220504231235874.png" alt="image-20220504231235874" style="zoom:50%;" />
+![image-20220504231235874](image/20220504231235874.png)
 
 获取邮件更新：
 
