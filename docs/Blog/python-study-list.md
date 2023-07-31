@@ -1168,8 +1168,4 @@ _
      [8, 6],
      [8, 9]]
 
-## KISS原则:Keep It Simple & Stupid
-
-```python
-
-```
+## [KISS原则:Keep It Simple & Stupid](#test)

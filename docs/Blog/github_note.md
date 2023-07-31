@@ -46,7 +46,7 @@ github高级搜索功能
 
 - 图片
 
-  [GitHub Markdown Cheat Sheet \(Example\)](https://coderwall.com/p/ln-ira/github-markdown-cheat-sheet)![Picture](img/gs.png)
+  [GitHub Markdown Cheat Sheet \(Example\)](https://coderwall.com/p/ln-ira/github-markdown-cheat-sheet)![Picture](image/gs.png)
 
 ## 3.阅读代码技巧
 
