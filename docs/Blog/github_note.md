@@ -4,7 +4,7 @@
 
 来自程序员鱼皮
 
-笔记地址：[Note/github\.md at main · youhuangla/Note](https://bailh.github.io/blog-mkdocs/Blog/github_note/)
+笔记地址：[blog-mkdocs/Blog/github_note](https://bailh.github.io/blog-mkdocs/Blog/github_note/)
 
 ## 1.搜索
 
