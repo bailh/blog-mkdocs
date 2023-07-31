@@ -29,7 +29,7 @@ nav:
       - python:
           - Blog/Python base.md
           - Blog/python-study-list.md
-
+          - Blog/python-study-Tuple.md
           - ML:
               - Blog/page2.md
           - CV:
