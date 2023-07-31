@@ -26,6 +26,8 @@ nav:
           - Blog/page7.md
       - python:
           - Blog/Python base.md
+          - Blog/python-study-list.md
+
           - ML:
               - Blog/page2.md
           - CV:
