@@ -33,7 +33,7 @@ while(cin>>a)输入用数组存起来；
 
 sort（）排序
 
-sort(  greater<int>()) 从大到小
+sort(  greater <int> ()) 从大到小
 
 ### 题解
 
