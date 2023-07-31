@@ -9,6 +9,8 @@ nav:
           - Home/home.md
   - Blog:
       - Blog/page5.md
+      - GitHub:
+          - Blog/github_note.md
       - test:
           - Blog/test.md
       - C++:
@@ -42,8 +44,6 @@ nav:
 
   - Website:
       - Website/build.md
-  - GitHub:
-      - Blog/github_note.md
 
 theme:
   name: material
