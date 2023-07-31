@@ -1,4 +1,4 @@
-# 列表
+# python-study-list
 
 ```python
 inp = input("请输入你的名字")
