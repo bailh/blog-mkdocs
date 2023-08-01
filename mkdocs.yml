@@ -19,7 +19,7 @@ nav:
               - Blog/dos.md
       - test:
           - Blog/test.md
-      - C++:
+      - C\C++:
           - Blog/page6.md
           - STL:
               - Blog/STL.md
@@ -30,6 +30,16 @@ nav:
                   - Blog/AcWing 3431. skew数.md
           - C++ important:
               - Blog/C++ important.md
+          - 2023暑假蓝桥杯集训:
+              - Blog/index_1.md
+              - C基础:
+                  - Blog/index_1.md
+              - C++基础:
+                  - Blog/index_1.md
+              - 基本数据结构:
+                  - Blog/index_1.md
+              - 算法:
+                  - Blog/index_1.md
       - java:
           - Blog/page7.md
       - python:
