@@ -11,6 +11,12 @@ nav:
       - Blog/page5.md
       - GitHub:
           - Blog/github_note.md
+      - Dos and Cmd:
+          - Blog/dos-cmd.md
+          - Cmd:
+              - Blog/cmd.md
+          - Dos:
+              - Blog/dos.md
       - test:
           - Blog/test.md
       - C++:
