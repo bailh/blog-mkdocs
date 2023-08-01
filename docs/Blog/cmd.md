@@ -8,118 +8,216 @@ chcp 65001
 
 ## 常用
 
-1. appwiz.cpl：程序和功能
-2. calc：启动计算器
-3. chkdsk.exe：Chkdsk磁盘检查（管理员身份运行命令提示符）
-4. cleanmgr: 打开磁盘清理工具
-5. cmd.exe：CMD命令提示符
-6. 自动关机命令
-   　 Shutdown -s -t 600：表示600秒后自动关机
-   　 [shutdown -a](https://www.zhihu.com/search?q=shutdown%20-a&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：可取消定时关机
-   　 Shutdown -r -t 600：表示600秒后自动重启
-7. CompMgmtLauncher：计算机管理
-8. compmgmt.msc：计算机管理
-9. credwiz：备份或还原储存的用户名和密码
-10. control：控制面版
-11. dcomcnfg：打开系统组件服务
-12. devmgmt.msc：设备管理器
-13. desk.cpl：屏幕分辨率
-14. dfrgui：优化驱动器   Windows 7→dfrg.msc：磁盘碎片整理程序
-15. dialer：电话拨号程序
-16. diskmgmt.msc：磁盘管理
-17. dvdplay：DVD播放器
-18. dxdiag：检查DirectX信息
-19. eudcedit：造字程序
-20. eventvwr：事件查看器
-21. explorer：打开资源管理器
-22. Firewall.cpl：Windows防火墙
-23. fsmgmt.msc：共享文件夹管理器
-24. gpedit.msc：组策略
-25. hdwwiz.cpl：设备管理器
-26. [inetcpl.cpl](https://www.zhihu.com/search?q=inetcpl.cpl&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D)：Internet属性
-27. intl.cpl：区域
-28. iexpress：木马捆绑工具，系统自带
-29. joy.cpl：游戏控制器
-30. logoff：注销命令
-31. lusrmgr.msc：本地用户和组
-32. lpksetup：语言包安装/删除向导，安装向导会提示下载语言包
-33. lusrmgr.msc：本机用户和组
-34. main.cpl：鼠标属性
-35. mmsys.cpl：声音
-36. mem.exe：显示内存使用情况（如果直接运行无效，可以先管理员身份运行命令提示符，在命令提示符里输入mem.exe>d:a.txt 即可打开d盘查看a.txt，里面的就是内存使用情况了。当然什么盘什么文件名可自己决定。）
-37. mmc：打开控制台
-38. mobsync：同步命令
-39. Msconfig.exe：系统配置实用程序
-40. msdt：微软支持诊断工具
-41. msinfo32：系统信息
-42. mspaint：画图
-43. Msra：Windows远程协助
-44. mstsc：远程桌面连接
-45. NAPCLCFG.MSC：客户端配置
-46. ncpa.cpl：网络连接
-47. narrator：屏幕“讲述人”
-48. Netplwiz：高级用户帐户控制面板，设置登陆安全相关的选项
-49. netstat : an(TC)命令检查接口
-50. notepad：打开记事本
-51. Nslookup：IP地址侦测器
-52. odbcad32：ODBC数据源管理器
-53. OptionalFeatures：打开“打开或关闭Windows功能”对话框
-54. osk：打开屏幕键盘
-55. perfmon.msc：计算机性能监测器
-56. perfmon：计算机性能监测器
-57. PowerShell：提供强大远程处理能力
-58. printmanagement.msc：打印管理
-59. powercfg.cpl：电源选项
-60. psr：问题步骤记录器
-61. Rasphone：网络连接
-62. Recdisc：创建系统修复光盘
-63. Resmon：资源监视器
-64. Rstrui：系统还原
-65. regedit.exe：注册表
-66. regedt32：注册表编辑器
-67. rsop.msc：组策略结果集
-68. sdclt：备份状态与配置，就是查看系统是否已备份
-69. secpol.msc：本地安全策略
-70. services.msc：本地服务设置
-71. sfc /scannow：扫描错误并复原/windows文件保护
-72. sfc.exe：系统文件检查器
-73. shrpubw：创建共享文件夹
-74. sigverif：文件签名验证程序
-75. slui：Windows激活，查看系统激活信息
-76. slmgr.vbs -dlv ：显示详细的许可证信息
-    　 slmgr.vbs -dli ：显示许可证信息
-    　 [slmgr.vbs -xpr](https://www.zhihu.com/search?q=slmgr.vbs%20-xpr&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：当前许可证截止日期
-    　 slmgr.vbs -dti ：显示安装ID 以进行脱机激
-    　 [slmgr.vbs -ipk](https://www.zhihu.com/search?q=slmgr.vbs%20-ipk&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：(Product Key)安装产品密钥
-    　 slmgr.vbs -ato ：激活Windows
-    　 [slmgr.vbs -cpky](https://www.zhihu.com/search?q=slmgr.vbs%20-cpky&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：从注册表中清除产品密钥（防止泄露引起的攻击）
-    　 slmgr.vbs -ilc ：(License file)安装许可证
-    　 [slmgr.vbs -upk](https://www.zhihu.com/search?q=slmgr.vbs%20-upk&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：卸载产品密钥
-    　 slmgr.vbs -skms ：(name[ort] )批量授权
-77. snippingtool：截图工具，支持无规则截图
-78. [soundrecorder](https://www.zhihu.com/search?q=soundrecorder&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D)：录音机，没有录音时间的限制
-79. StikyNot：便笺
-80. sysdm.cpl：系统属性
-81. sysedit：系统配置编辑器
-82. syskey：系统加密，一旦加密就不能解开，保护系统的双重密码
-83. taskmgr：任务管理器（旧版）
-84. TM任务管理器（新版）
-85. taskschd.msc：任务计划程序
-86. timedate.cpl：日期和时间
-87. UserAccountControlSettings用户账户控制设置
-88. utilman：辅助工具管理器
-89. wf.msc：高级安全Windows防火墙
-90. WFS：Windows传真和扫描
-91. wiaacmgr：扫描仪和照相机向导
-92. winver：关于Windows
-93. wmimgmt.msc：打开windows管理体系结构(WMI)
-94. write：写字板
-95. wscui.cpl：操作中心
-96. wscript：windows脚本宿主设置
-97. wuapp：Windows更新
+   1. appwiz.cpl：程序和功能
+
+   2. **calc：启动计算器**
+
+   3. chkdsk.exe：Chkdsk磁盘检查（管理员身份运行命令提示符）
+
+   4. cleanmgr: 打开磁盘清理工具
+
+   5. **cmd.exe：CMD命令提示符**
+
+   6. 自动关机命令
+        Shutdown -s -t 600：表示600秒后自动关机
+           　 [shutdown -a](https://www.zhihu.com/search?q=shutdown%20-a&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：可取消定时关机
+           　 Shutdown -r -t 600：表示600秒后自动重启
+
+   7. CompMgmtLauncher：计算机管理
+
+   8. compmgmt.msc：计算机管理
+
+   9. credwiz：备份或还原储存的用户名和密码
+
+   10. **control：控制面版**
+
+   11. dcomcnfg：打开系统组件服务
+
+   12. **devmgmt.msc：设备管理器**
+
+   13. **desk.cpl：屏幕分辨率**
+
+   14. dfrgui：优化驱动器   Windows 7→dfrg.msc：磁盘碎片整理程序
+
+   15. dialer：电话拨号程序
+
+   16. diskmgmt.msc：磁盘管理
+
+   17. dvdplay：DVD播放器
+
+   18. **dxdiag：检查DirectX信息**
+
+   19. eudcedit：造字程序
+
+   20. eventvwr：事件查看器
+
+   21. **explorer：打开资源管理器**
+
+   22. Firewall.cpl：Windows防火墙
+
+   23. fsmgmt.msc：共享文件夹管理器
+
+   24. gpedit.msc：组策略
+
+   25. hdwwiz.cpl：设备管理器
+
+   26. **[inetcpl.cpl](https://www.zhihu.com/search?q=inetcpl.cpl&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D)：Internet属性**
+
+   27. intl.cpl：区域
+
+   28. iexpress：木马捆绑工具，系统自带
+
+   29. joy.cpl：游戏控制器
+
+   30. logoff：注销命令
+
+   31. lusrmgr.msc：本地用户和组
+
+   32. lpksetup：语言包安装/删除向导，安装向导会提示下载语言包
+
+   33. lusrmgr.msc：本机用户和组
+
+   34. main.cpl：鼠标属性
+
+   35. mmsys.cpl：声音
+
+   36. mem.exe：显示内存使用情况（如果直接运行无效，可以先管理员身份运行命令提示符，在命令提示符里输入mem.exe>d:a.txt 即可打开d盘查看a.txt，里面的就是内存使用情况了。当然什么盘什么文件名可自己决定。）
+
+   37. mmc：打开控制台
+
+   38. mobsync：同步命令
+
+   39. Msconfig.exe：系统配置实用程序
+
+   40. msdt：微软支持诊断工具
+
+   41. msinfo32：系统信息
+
+   42. mspaint：画图
+
+   43. Msra：Windows远程协助
+
+   44. mstsc：远程桌面连接
+
+   45. NAPCLCFG.MSC：客户端配置
+
+   46. ncpa.cpl：网络连接
+
+   47. narrator：屏幕“讲述人”
+
+   48. Netplwiz：高级用户帐户控制面板，设置登陆安全相关的选项
+
+   49. netstat : an(TC)命令检查接口
+
+   50. notepad：打开记事本
+
+   51. **Nslookup：IP地址侦测器**
+
+   52. odbcad32：ODBC数据源管理器
+
+   53. OptionalFeatures：打开“打开或关闭Windows功能”对话框
+
+   54. osk：打开屏幕键盘
+
+   55. perfmon.msc：计算机性能监测器
+
+   56. perfmon：计算机性能监测器
+
+   57. [ping](./ping.md) :**强大的TCP/IP工具**
+
+   58. PowerShell：提供强大远程处理能力
+
+   57. printmanagement.msc：打印管理
+
+   58. powercfg.cpl：电源选项
+
+   59. psr：问题步骤记录器
+
+   60. Rasphone：网络连接
+
+   61. Recdisc：创建系统修复光盘
+
+   62. Resmon：资源监视器
+
+   63. Rstrui：系统还原
+
+   64. regedit.exe：注册表
+
+   65. regedt32：注册表编辑器
+
+   66. rsop.msc：组策略结果集
+
+   67. sdclt：备份状态与配置，就是查看系统是否已备份
+
+   68. secpol.msc：本地安全策略
+
+   69. services.msc：本地服务设置
+
+   70. sfc /scannow：扫描错误并复原/windows文件保护
+
+   71. sfc.exe：系统文件检查器
+
+   72. shrpubw：创建共享文件夹
+
+   73. sigverif：文件签名验证程序
+
+   74. slui：Windows激活，查看系统激活信息
+
+   75. slmgr.vbs -dlv ：显示详细的许可证信息
+         　 slmgr.vbs -dli ：显示许可证信息
+         　 [slmgr.vbs -xpr](https://www.zhihu.com/search?q=slmgr.vbs%20-xpr&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：当前许可证截止日期
+         　 slmgr.vbs -dti ：显示安装ID 以进行脱机激
+         　 [slmgr.vbs -ipk](https://www.zhihu.com/search?q=slmgr.vbs%20-ipk&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：(Product Key)安装产品密钥
+         　 slmgr.vbs -ato ：激活Windows
+         　 [slmgr.vbs -cpky](https://www.zhihu.com/search?q=slmgr.vbs%20-cpky&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：从注册表中清除产品密钥（防止泄露引起的攻击）
+         　 slmgr.vbs -ilc ：(License file)安装许可证
+         　 [slmgr.vbs -upk](https://www.zhihu.com/search?q=slmgr.vbs%20-upk&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D) ：卸载产品密钥
+         　 slmgr.vbs -skms ：(name[ort] )批量授权
+
+   76. snippingtool：截图工具，支持无规则截图
+
+   77. [soundrecorder](https://www.zhihu.com/search?q=soundrecorder&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22%3A%22article%22%2C%22sourceId%22%3A%22209115733%22%7D)：录音机，没有录音时间的限制
+
+   78. StikyNot：便笺
+
+   79. sysdm.cpl：系统属性
+
+   80. sysedit：系统配置编辑器
+
+   81. syskey：系统加密，一旦加密就不能解开，保护系统的双重密码
+
+   82. taskmgr：任务管理器（旧版）
+
+   83. TM任务管理器（新版）
+
+   84. taskschd.msc：任务计划程序
+
+   85. timedate.cpl：日期和时间
+
+   86. UserAccountControlSettings用户账户控制设置
+
+   87. utilman：辅助工具管理器
+
+   88. wf.msc：高级安全Windows防火墙
+
+   89. WFS：Windows传真和扫描
+
+   90. wiaacmgr：扫描仪和照相机向导
+
+   91. winver：关于Windows
+
+   92. wmimgmt.msc：打开windows管理体系结构(WMI)
+
+   93. write：写字板
+
+   94. wscui.cpl：操作中心
+
+   95. wscript：windows脚本宿主设置
+
+   96. wuapp：Windows更新
 
 <!-- more -->
-### 查询
+## 查询
 
 　　1. gpedit.msc-----组策略
 
@@ -411,7 +509,7 @@ chcp 65001
 　　nbtstat -A ip 对方136到139其中一个端口开了的话，就可查看对方最近登陆的用户名
 
 　　tracert -参数 ip(或计算机名) 跟踪路由（数据包），参数：“-w数字”用于设置超时间隔。
-
+[ping详情见](./ping.md)
 　　ping ip(或域名) 向对方主机发送默认大小为32字节的数据，参数：“-l[空格]数据包大小”；“-n发送数据次数”；“-t”指一直ping。
 
 　　ping -t -l 65550 ip 死亡之ping(发送大于64K的文件并一直ping就成了死亡之ping)
