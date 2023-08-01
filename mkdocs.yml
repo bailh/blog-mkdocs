@@ -50,6 +50,8 @@ nav:
 
   - Website:
       - Website/build.md
+  - E-books:
+      - E-books/pointers on c.md
 
 theme:
   name: material
