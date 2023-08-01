@@ -83,9 +83,10 @@ theme:
     - content.action.view
   icon:
     repo: fontawesome/brands/github #右上角图标
-    edit_uri: edit/main/docs # 编辑按钮跳转的链接
-    repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
-    repo_name: bailh.github.io # 右上角的名字
+
+edit_uri: edit/main/docs # 编辑按钮跳转的链接
+repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
+repo_name: bailh.github.io # 右上角的名字
 copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
 
 markdown_extensions:
