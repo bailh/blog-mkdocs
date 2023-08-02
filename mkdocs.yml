@@ -20,8 +20,6 @@ nav:
                                       - Blog/ping.md
                             - Dos:
                                       - Blog/dos.md
-                  - test:
-                            - Blog/test.md
                   - Mathematical modeling:
                             - Blog/test.md
                             - MATLAB:
