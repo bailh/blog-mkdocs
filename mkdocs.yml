@@ -10,9 +10,9 @@ nav:
         - Blog:
                   - Blog/page5.md
                   - GitHub:
-                            - Blog/github_note.md
+                  - Blog/github_note.md
                   - markdown:
-                            - Blog/Markdown syntax specification.md
+                  - Blog/Markdown syntax specification.md
                   - Dos and Cmd:
                             - Blog/dos-cmd.md
                             - Cmd:
@@ -24,29 +24,29 @@ nav:
                             - Blog/test.md
                             - MATLAB:
                                       - Blog/MATLAB entry.md
-                            - graph theory:
-                                      - Blog/graph theory.md
+                                      - graph theory:
+                                                - Blog/graph theory.md
                   - C\C++:
                             - Blog/page6.md
                             - STL:
-                            - Blog/STL.md
+                                      - Blog/STL.md
                             - 算法与数据结构:
                                       - Blog/first.md
                                       - ACWING:
                                                 - Blog/AcWing 3446.md
                                                 - Blog/AcWing 3431. skew数.md
-                            - C++ important:
-                                      - Blog/C++ important.md
-                            - 2023暑假蓝桥杯集训:
-                                      - Blog/index_1.md
-                                      - C基础:
-                                      - Blog/index_1.md
-                                      - C++基础:
+                                      - C++ important:
+                                                - Blog/C++ important.md
+                                      - 2023暑假蓝桥杯集训:
                                                 - Blog/index_1.md
-                                      - 基本数据结构:
-                                                - Blog/index_1.md
-                                      - 算法:
-                                                - Blog/index_1.md
+                                                - C基础:
+                                                          - Blog/index_1.md
+                                                - C++基础:
+                                                          - Blog/index_1.md
+                                                - 基本数据结构:
+                                                          - Blog/index_1.md
+                                                - 算法:
+                                                          - Blog/index_1.md
                   - java:
                             - Blog/page7.md
                   - python:
@@ -62,10 +62,10 @@ nav:
                             - jupyter:
                                       - Blog/jupyter-fast.md
                                       - Blog/Jupyter book快捷键.md
-                  - Website:
-                            - Website/build.md
-                  - E-books:
-                            - E-books/pointers on c.md
+                                      - Website:
+                                                - Website/build.md
+                                      - E-books:
+                                                - E-books/pointers on c.md
 
 theme:
         name: material
