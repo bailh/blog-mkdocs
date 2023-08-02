@@ -1,5 +1,5 @@
 ---
-title: **ping**
+title: ping
 tags:
  - cmd
 ---

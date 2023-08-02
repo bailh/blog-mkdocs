@@ -1,14 +1,12 @@
 ---
-tags:
-  - insiders
-  - navigation
-  - search
+title: 分类
+hide:
+  #- navigation # 显示右
+  #- toc #显示左
+  - footer
+  - feedback
 ---
-
 # Tags
 
 !!! tip
-    Following is a list of relevant tags:
-
-
-
+    以下是相关标签的列表
