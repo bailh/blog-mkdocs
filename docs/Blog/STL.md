@@ -1,9 +1,7 @@
 ---
-title: c++的STL
-top: 6
-descripton: c++的STL具体用法
-tag: STL
-categories: 算法
+title: c++的STL具体用法
+tags:
+ - C++
 ---
 
 ## sort排序

@@ -1,4 +1,8 @@
-# CMD
+---
+title: CMD
+tags:
+ - CMD
+---
 
 链接：[CMD命令大全](https://link.zhihu.com/?target=https%3A//www.cnblogs.com/walkwaters/p/12153364.html)
 CMD命令：开始－>运行－>键入cmd或command（在命令行里可以看到系统版本、文件系统版本）

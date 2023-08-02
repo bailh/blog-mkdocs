@@ -1,4 +1,9 @@
-# difference
+---
+title: dos-cmd
+tags:
+ - dos
+ - cmd
+---
 
 ## dos
 

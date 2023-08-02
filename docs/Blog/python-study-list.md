@@ -1,4 +1,8 @@
-# python-study-list
+---
+title: python-study-list
+tags:
+ - Python
+---
 
 ```python
 inp = input("请输入你的名字")

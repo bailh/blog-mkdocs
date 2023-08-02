@@ -7,7 +7,8 @@ tags:
 
 # Tags
 
-Following is a list of relevant tags:
+!!! tip
+    Following is a list of relevant tags:
 
 
 

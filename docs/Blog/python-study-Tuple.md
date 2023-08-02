@@ -1,5 +1,8 @@
-# python-study-Tuple
-
+---
+title: python-study-Tuple
+tags:
+ - Python
+---
 
 ```python
 rhyme = (1,2,3,4,5, "上山打老虎")

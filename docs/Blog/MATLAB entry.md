@@ -1,5 +1,8 @@
-# MATLAB entry
-
+---
+title: MATLAB entry
+tags:
+ - MATLAB
+---
 ## 符号与函数
 
 **π**：pi

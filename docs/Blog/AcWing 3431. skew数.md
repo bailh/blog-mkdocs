@@ -1,10 +1,9 @@
 ---
 title: AcWing 3431. skew数
-tags: 
-	- 字符串
+tags:
+- AcWing
+- 算法与数据结构
 ---
-# AcWing 3431. skew数
-
 ## AcWing 3431.skew数
 
 ### 题目

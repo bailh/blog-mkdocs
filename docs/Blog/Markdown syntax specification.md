@@ -1,4 +1,8 @@
-# Markdown syntax specification.md
+---
+title: Markdown syntax specification.md
+tags:
+ - Markdown
+---
 
 [details见官方文档](https://www.markdown.xyz/basic-syntax/)
 

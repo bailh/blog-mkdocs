@@ -1,4 +1,8 @@
-# Jupyter Notebook的快捷键
+---
+title: Jupyter Notebook的快捷键
+tags:
+ - Jupyter
+---
 
 ## Jupyter Notebook 的快捷键
 

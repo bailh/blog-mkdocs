@@ -1,4 +1,8 @@
-# **ping**
+---
+title: **ping**
+tags:
+ - cmd
+---
 
 ping ip地址，来测试网络的连通情况
 
