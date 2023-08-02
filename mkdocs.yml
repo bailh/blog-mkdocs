@@ -23,13 +23,13 @@ nav:
                   - Mathematical modeling:
                             - Blog/test.md
                             - MATLAB:
-                            - Blog/MATLAB entry.md
+                                      - Blog/MATLAB entry.md
                             - graph theory:
-                            - Blog/graph theory.md
+                                      - Blog/graph theory.md
                   - C\C++:
                             - Blog/page6.md
                             - STL:
-                                      - Blog/STL.md
+                            - Blog/STL.md
                             - 算法与数据结构:
                                       - Blog/first.md
                                       - ACWING:
@@ -40,7 +40,7 @@ nav:
                             - 2023暑假蓝桥杯集训:
                                       - Blog/index_1.md
                                       - C基础:
-                                                - Blog/index_1.md
+                                      - Blog/index_1.md
                                       - C++基础:
                                                 - Blog/index_1.md
                                       - 基本数据结构:
@@ -62,10 +62,10 @@ nav:
                             - jupyter:
                                       - Blog/jupyter-fast.md
                                       - Blog/Jupyter book快捷键.md
-        - Website:
-                  - Website/build.md
-        - E-books:
-                  - E-books/pointers on c.md
+                  - Website:
+                            - Website/build.md
+                  - E-books:
+                            - E-books/pointers on c.md
 
 theme:
         name: material
