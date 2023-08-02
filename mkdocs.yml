@@ -8,11 +8,10 @@ nav:
                   - home:
                             - Home/home.md
         - Blog:
-                  - Blog/page5.md
                   - GitHub:
-                  - Blog/github_note.md
+                            - Blog/github_note.md
                   - markdown:
-                  - Blog/Markdown syntax specification.md
+                            - Blog/Markdown syntax specification.md
                   - Dos and Cmd:
                             - Blog/dos-cmd.md
                             - Cmd:
@@ -21,7 +20,7 @@ nav:
                             - Dos:
                                       - Blog/dos.md
                   - Mathematical modeling:
-                            - Blog/test.md
+                            - Blog/Mathematical modeling.md
                             - MATLAB:
                                       - Blog/MATLAB entry.md
                                       - graph theory:
@@ -37,16 +36,18 @@ nav:
                                                 - Blog/AcWing 3431. skew数.md
                                       - C++ important:
                                                 - Blog/C++ important.md
-                                      - 2023暑假蓝桥杯集训:
+                            - 2023暑假蓝桥杯集训:
+                                      - Blog/index_1.md
+                                      - C基础:
+                                                Dev-c++:
+                                                        - Blog/Dev-c++.md
+                                                        - Blog/index_1.md
+                                      - C++基础:
                                                 - Blog/index_1.md
-                                                - C基础:
-                                                          - Blog/index_1.md
-                                                - C++基础:
-                                                          - Blog/index_1.md
-                                                - 基本数据结构:
-                                                          - Blog/index_1.md
-                                                - 算法:
-                                                          - Blog/index_1.md
+                                      - 基本数据结构:
+                                                - Blog/index_1.md
+                                      - 算法:
+                                                - Blog/index_1.md
                   - java:
                             - Blog/page7.md
                   - python:
@@ -62,10 +63,10 @@ nav:
                             - jupyter:
                                       - Blog/jupyter-fast.md
                                       - Blog/Jupyter book快捷键.md
-                                      - Website:
-                                                - Website/build.md
-                                      - E-books:
-                                                - E-books/pointers on c.md
+        - Website:
+                  - Website/build.md
+        - E-books:
+                  - E-books/pointers on c.md
 
 theme:
         name: material
@@ -107,9 +108,12 @@ theme:
                 repo: fontawesome/brands/github #右上角图标
 
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
+## [top-right corner]
+repo_url: https://github.com/bailh/blog-mkdocs # 右上角点击跳转的链接
 repo_name: bailh.github.io # 右上角的名字
+## [bottom-left corner]
 copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
+## [bottom-right corner]
 
 markdown_extensions:
         - pymdownx.highlight:
@@ -138,6 +142,7 @@ extra:
 plugins:
         - search:
                   separator: '[\s\u200b\-]'
+        - tags:
 
 extra_javascript:
         # - javascripts/extra.js
