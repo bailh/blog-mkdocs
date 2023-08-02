@@ -3,106 +3,106 @@ site_author: lisihan
 site_description: lisihan's self-website
 
 nav:
-    - Home:
-          - index.md
-          - home:
-                - Home/home.md
-    - Blog:
-          - Blog/page5.md
-          - GitHub:
-                - Blog/github_note.md
-          - markdown:
-                - Blog/Markdown syntax specification.md
-          - Dos and Cmd:
-                - Blog/dos-cmd.md
-                - Cmd:
-                      - Blog/cmd.md
-                      - Blog/ping.md
-                - Dos:
-                      - Blog/dos.md
-          - test:
-                - Blog/test.md
-          - C\C++:
-                - Blog/page6.md
-                - STL:
-                      - Blog/STL.md
-                - 算法与数据结构:
-                      - Blog/first.md
-                      - ACWING:
-                            - Blog/AcWing 3446.md
-                            - Blog/AcWing 3431. skew数.md
-                - C++ important:
-                      - Blog/C++ important.md
-                - 2023暑假蓝桥杯集训:
-                      - Blog/index_1.md
-                      - C基础:
-                            - Blog/index_1.md
-                      - C++基础:
-                            - Blog/index_1.md
-                      - 基本数据结构:
-                            - Blog/index_1.md
-                      - 算法:
-                            - Blog/index_1.md
-          - java:
-                - Blog/page7.md
-          - python:
-                - Blog/Python base.md
-                - Blog/python-study-list.md
-                - Blog/python-study-Tuple.md
-                - ML:
-                      - Blog/page2.md
-                - CV:
-                      - Blog/page3.md
-                - NLP:
-                      - Blog/page4.md
-                - jupyter:
-                      - Blog/jupyter-fast.md
-                      - Blog/Jupyter book快捷键.md
-          - MATLAB:
-                - Blog/MATLAB entry.md
-    - Website:
-          - Website/build.md
-    - E-books:
-          - E-books/pointers on c.md
+      - Home:
+              - index.md
+              - home:
+                      - Home/home.md
+      - Blog:
+              - Blog/page5.md
+              - GitHub:
+                      - Blog/github_note.md
+              - markdown:
+                      - Blog/Markdown syntax specification.md
+              - Dos and Cmd:
+                      - Blog/dos-cmd.md
+                      - Cmd:
+                              - Blog/cmd.md
+                              - Blog/ping.md
+                      - Dos:
+                              - Blog/dos.md
+              - test:
+                      - Blog/test.md
+              - C\C++:
+                      - Blog/page6.md
+                      - STL:
+                              - Blog/STL.md
+                      - 算法与数据结构:
+                              - Blog/first.md
+                              - ACWING:
+                                      - Blog/AcWing 3446.md
+                                      - Blog/AcWing 3431. skew数.md
+                      - C++ important:
+                              - Blog/C++ important.md
+                      - 2023暑假蓝桥杯集训:
+                              - Blog/index_1.md
+                              - C基础:
+                                      - Blog/index_1.md
+                              - C++基础:
+                                      - Blog/index_1.md
+                              - 基本数据结构:
+                                      - Blog/index_1.md
+                              - 算法:
+                                      - Blog/index_1.md
+              - java:
+                      - Blog/page7.md
+              - python:
+                      - Blog/Python base.md
+                      - Blog/python-study-list.md
+                      - Blog/python-study-Tuple.md
+                      - ML:
+                              - Blog/page2.md
+                      - CV:
+                              - Blog/page3.md
+                      - NLP:
+                              - Blog/page4.md
+                      - jupyter:
+                              - Blog/jupyter-fast.md
+                              - Blog/Jupyter book快捷键.md
+              - MATLAB:
+                      - Blog/MATLAB entry.md
+      - Website:
+              - Website/build.md
+      - E-books:
+              - E-books/pointers on c.md
 
 theme:
-    name: material
-    palette:
-        - scheme: default # 日间模式
-          primary: indigo # 上方的
-          accent: red # 链接等可交互元件的高亮色
-          toggle:
-              icon: material/weather-night # 图标
-              name: 切换至夜间模式 # 鼠标悬浮提示
-        - scheme: slate # 夜间模式
-          primary: black
-          accent: yellow
-          toggle:
-              icon: material/weather-sunny
-              name: 切换至日间模式
-    language: zh # 一些提示性的文字会变成中文
-    features:
-        - navigation.instant #- header.autohide  #自动隐藏
-        - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
-        - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
-        - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
-        # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
-        - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
-        - navigation.top # 返回顶部的按钮 在上滑时出现
-        - search.suggest # 搜索输入一些字母时推荐补全整个单词
-        - search.highlight # 搜索出的文章关键词加入高亮
-        - navigation.expand # 打开Tab时左侧目录全部展开
-        - navigation.indexes #启用节索引页后，可以将文档直接附加到节
-        - search.share #搜索分享按钮
-        - content.tabs.link
-        - content.tooltips
-        - content.code.copy
-        - content.code.select
-        - content.code.select
-        - content.action.edit
-        - content.action.view
-    icon:
-        repo: fontawesome/brands/github #右上角图标
+      name: material
+      palette:
+            - scheme: default # 日间模式
+              primary: indigo # 上方的
+              accent: red # 链接等可交互元件的高亮色
+              toggle:
+                    icon: material/weather-night # 图标
+                    name: 切换至夜间模式 # 鼠标悬浮提示
+            - scheme: slate # 夜间模式
+              primary: black
+              accent: yellow
+              toggle:
+                    icon: material/weather-sunny
+                    name: 切换至日间模式
+      language: zh # 一些提示性的文字会变成中文
+      features:
+            - navigation.instant #- header.autohide  #自动隐藏
+            - announce.dismiss #呈现可标记为由用户读取的临时公告，可以包含一个用于取消当前公告的按钮
+            - navigation.tracking #地址栏中的 URL 将自动更新为在目录中突出显示的活动锚点
+            - navigation.tabs #顶级部分将呈现在上面视口标题下方的菜单层中，但在移动设备上保持原样
+            # - navigation.tabs.sticky  #启用粘性选项卡后，导航选项卡将锁定在标题下方，并在向下滚动时始终保持可见
+            - navigation.sections #启用部分后，顶级部分在边栏中呈现为1220px以上视口的组，但在移动设备上保持原样
+            - navigation.top # 返回顶部的按钮 在上滑时出现
+            - search.suggest # 搜索输入一些字母时推荐补全整个单词
+            - search.highlight # 搜索出的文章关键词加入高亮
+            - navigation.expand # 打开Tab时左侧目录全部展开
+            - navigation.indexes #启用节索引页后，可以将文档直接附加到节
+            - search.share #搜索分享按钮
+            - content.tabs.link
+            - content.tooltips
+            - content.code.copy
+            - content.code.select
+            - content.code.select
+            - content.action.edit
+            - content.action.view
+      icon:
+            repo: fontawesome/brands/github #右上角图标
 
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
 repo_url: https://bailh.github.io/ # 右上角点击跳转的链接
@@ -110,38 +110,42 @@ repo_name: bailh.github.io # 右上角的名字
 copyright: 李思涵 CC-BY-4.0 # 左下角的版权声明
 
 markdown_extensions:
-    - pymdownx.highlight:
-          anchor_linenums: true
-          line_spans: __span
-          pygments_lang_class: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
-    - attr_list
-    - md_in_html
-    - attr_list
+      - pymdownx.highlight:
+              anchor_linenums: true
+              line_spans: __span
+              pygments_lang_class: true
+      - pymdownx.inlinehilite
+      - pymdownx.snippets
+      - pymdownx.superfences
+      - attr_list
+      - md_in_html
+      - attr_list
 
 extra:
-    generator: false #删除页脚显示“使用 MkDocs 材料制造”
-    social:
-        - icon: fontawesome/brands/github
-          link: https://bailh.github.io/
-          name: GitHub | Li-Si-Han
-        - icon: fontawesome/brands/bilibili
-          link: https://space.bilibili.com/448019332?spm_id_from=333.788.0.0
-          name: Bilibili | -君-莫-笑 # 鼠标悬浮提示
-        - icon: fontawesome/solid/paper-plane
-          link: mailto:<bailhsihan@gmail.com> #联系方式
+      generator: false #删除页脚显示“使用 MkDocs 材料制造”
+      social:
+            - icon: fontawesome/brands/github
+              link: https://bailh.github.io/
+              name: GitHub | Li-Si-Han
+            - icon: fontawesome/brands/bilibili
+              link: https://space.bilibili.com/448019332?spm_id_from=333.788.0.0
+              name: Bilibili | -君-莫-笑 # 鼠标悬浮提示
+            - icon: fontawesome/solid/paper-plane
+              link: mailto:<bailhsihan@gmail.com> #联系方式
+
+plugins:
+      - search:
+              separator: '[\s\u200b\-]'
 
 extra_javascript:
-    # - javascripts/extra.js
-    - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js # extra的cdn
-    - javascripts/mathjax.js
-    - https://polyfill.io/v3/polyfill.min.js?features=es6
-    - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
-    #- ckplayer/js/ckplayer.js
-    # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
-    # - javascripts/backgroud.js
-    # - javascripts/rellax.min.js
-    - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js
+      # - javascripts/extra.js
+      - https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/javascripts/extra.js # extra的cdn
+      - javascripts/mathjax.js
+      - https://polyfill.io/v3/polyfill.min.js?features=es6
+      - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      - https://cdn.jsdelivr.net/npm/gitalk@latest/dist/gitalk.min.js
+      #- ckplayer/js/ckplayer.js
+      # - https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js
+      # - javascripts/backgroud.js
+      # - javascripts/rellax.min.js
+      - https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/add-html-label-6e56ed67.min.js
