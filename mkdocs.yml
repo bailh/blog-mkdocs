@@ -39,9 +39,9 @@ nav:
                             - 2023暑假蓝桥杯集训:
                                       - Blog/index_1.md
                                       - C基础:
-                                                Dev-c++:
-                                                        - Blog/Dev-c++.md
-                                                        - Blog/index_1.md
+                                                - Dev-c++:
+                                                          - Blog/Dev-c++.md
+                                                          - Blog/index_1.md
                                       - C++基础:
                                                 - Blog/index_1.md
                                       - 基本数据结构:

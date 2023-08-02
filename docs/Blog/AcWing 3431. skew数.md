@@ -1,12 +1,11 @@
 ---
 title: AcWing 3431. skew数
-top: 16
-description: AcWing 3431. skew数
-tag: 字符串
-categories: AcWing 春季每日一题
+tags: 
+	- 字符串
 ---
+# AcWing 3431. skew数
 
-## AcWing 3431. skew数
+## AcWing 3431.skew数
 
 ### 题目
 
