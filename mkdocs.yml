@@ -67,6 +67,9 @@ nav:
                   - Website/build.md
         - E-books:
                   - E-books/pointers on c.md
+        - Essay:
+                  - Essay/SMART.md
+                  - Essay/SQ3R.md
         - Tag: tag.md
 
 theme:
