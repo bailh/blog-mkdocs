@@ -54,6 +54,11 @@ VER     系统版本
 
 #### cd
 
+Change directory——改变文件夹
+.  是原处
+
+.. 父亲
+
 
 2. 切换到其他盘下：盘符号 cd :
 
@@ -83,6 +88,14 @@ VER     系统版本
   ```
   cd \
   ```
+
+#### md 
+
+Make directory——创建文件夹
+
+#### rd   
+
+Remove directory——删除文件夹
 
 #### cls
 
