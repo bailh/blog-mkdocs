@@ -8,6 +8,7 @@ nav:
       - home:
           - Home/home.md
   - Blog:
+      - index.md
       - step:
           - first_step_clash.md
       - GitHub:
