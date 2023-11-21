@@ -23,8 +23,5 @@ tags:
 使用前可以进行测试，免费的有的用就不错了
 开启系统代理即可
 
-使用前可以进行测试，免费的有的用就不错了
-
-![img](https://cdn.jsdelivr.net/gh/bailh/picGo_image@main/blog/Snipaste_2023-11-21_16-30-51.jpg)
-
+![img](image/dos/Snipaste_2023-11-21_16-30-51.jpg)khhigtb
 实测使用chatGPT是没问题的
